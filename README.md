@@ -7,7 +7,7 @@ This repository contains code related to various cyber attacks for educational a
 The code in this repository includes various modes and functions related to different types of cyber attacks. Here are some examples of how to use the code:
 
 - **`python3 bruteforce.py -t example.com -u admin -p passwordlist.txt`**: This command will launch a brute force attack on the website example.com using a list of passwords contained in the file **`passwordlist.txt`**.
-- **`python3 phishing.py -e victim@example.com -s "Important Notification" -b "Please click this link to view your account": This command will send a phishing email to the victim's email address` [victim@example.com](mailto:victim@example.com)**` with the subject line "Important Notification" and body text "Please click this link to view your account".
+
 - **`python3 ddos.py -t example.com -p 80 -r 1000`**: This command will launch a distributed denial of service (DDoS) attack on the website example.com on port 80 with a rate of 1000 requests per second.
 
 ## **Contributions**
